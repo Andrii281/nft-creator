@@ -1,0 +1,18 @@
+@import "common/styles/reset";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+:root {
+  --appFontSize: 16px;
+  --headerHeight: 4em;
+
+  --gray-300: hsla(0, 0%, 92%);
+}
+
+html {
+  font-size: var(--appFontSize);
+  font-family: 'Manrope', sans-serif;
+}
+
+#root {
+  min-height: 100%;
+}
